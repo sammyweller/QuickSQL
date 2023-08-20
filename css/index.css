@@ -631,7 +631,8 @@ footer {
 
     /* Smaller padding on mobile: */
 
-    .intro-content {
+    .intro-content, 
+    .section-4 {
         padding-top: 112px;
         padding-bottom: 112px;
     }
@@ -645,15 +646,7 @@ footer {
     }
 
     .section2,
-    .section3 {
-        padding-bottom: 112px;
-    }
-
-    .section-4 {
-        padding-top: 112px;
-        padding-bottom: 112px;
-    }
-
+    .section3,
     .section-5 {
         padding-bottom: 112px;
     }
