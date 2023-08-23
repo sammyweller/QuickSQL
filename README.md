@@ -7,6 +7,7 @@ This project was a mock simulation of a real-world web dev project. A designer s
 HTML, CSS, Javascript, Bootstrap
 
 ## Link to the site: 
+https://sammyweller.github.io/QuickSQL/
 
 ## Images of site:
 ### Desktop view:
