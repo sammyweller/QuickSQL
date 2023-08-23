@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 
-/* Fonts
+/* fonts
 title font: 
 font-family: 'IBM Plex Mono', monospace;
 regular font:
@@ -30,8 +30,7 @@ font-family: 'Open Sans', sans-serif;
 .section-3,
 .content-4,
 .content-5,
-.footer, 
-.container {
+.footer {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 79px;
@@ -140,17 +139,24 @@ h2 {
 
 }
 
+.cta-top:hover {
+    color: #FBFEF9;
+    background-color: #BF1363;
+}
+
+.cta-top:active {
+    color: #FBFEF9;
+    background-color: #BF1363;
+}
+
 .cta-top-text:hover {
-    color: #BF1363;
+    color: #FBFEF9;
 }
 
-.cta-top-text:active {
-    color: #BF1363;
+.cta-totext:active {
+    color: #FBFEF9;
 }
 
-.cta-top-text:visited {
-    color: #BF1363;
-}
 
 .dropdown .dropdown-menu {
     border: none;
@@ -192,6 +198,8 @@ h1 {
     font-weight: 700;
     width: 217px;
 }
+
+
 
 .book-demo {
     color: #BF1363;
@@ -521,33 +529,35 @@ footer {
 /* links */
 .create-account:active {
     color: #FBFEF9;
+    background-color: #850d45;
+    text-decoration: none;
 }
 .create-account:hover {
     color: #FBFEF9;
-}
-.create-account:visited {
-    color: #FBFEF9;
+    background-color: #850d45;
+    text-decoration: none;
 }
 .create-account2:active {
     color: #FBFEF9;
+    background-color: #850d45;
+    text-decoration: none;
 }
 .create-account2:hover {
     color: #FBFEF9;
-}
-.create-account2:visited {
-    color: #FBFEF9;
-}
-
-.book-demo:active {
-    color: #BF1363;
+    background-color: #850d45;
+    text-decoration: none;
 }
 
-.book-demo:hover {
-    color: #BF1363;
+.book-demo:active
+ {
+    color: #850d45;
+    text-decoration: none;
 }
 
-.book-demo:visited {
-    color: #BF1363;
+.book-demo:hover
+ {
+    color: #850d45;
+    text-decoration: none;
 }
 
 
