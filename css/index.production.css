@@ -1,0 +1,815 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* Fonts
+title font: 
+font-family: 'IBM Plex Mono', monospace;
+regular font:
+font-family: 'Open Sans', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+
+/* custom width to override bootstrap max width */
+.page-header,
+.intro,
+.content-1,
+.section-2,
+.section-3,
+.content-4,
+.content-5,
+.footer, 
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 79px;
+
+}
+
+
+/* Title font styles: */
+
+.navbar-toggler {
+    color: black;
+
+}
+
+.navbar-brand,
+h1,
+h2,
+.footer-logo {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+}
+
+.navbar-brand {
+    font-weight: 400;
+    font-size: 2.4rem;
+
+}
+
+.sql-bold {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+
+/* navbar: */
+.navbar {
+    padding: 50px 0 0 0;
+}
+
+.navbar-brand {
+    padding-right: 10px;
+    color: #000000;
+}
+
+.navbar-brand:active {
+    color: #000000;
+}
+
+.navbar-brand:hover {
+    color: #000000;
+}
+
+.navbar-brand:visited {
+    color: #000000;
+}
+
+
+.navbar-nav {
+    gap: 20px;
+    color: #000000;
+}
+
+.nav-item {
+    color: #000000;
+    font-size: 1rem;
+
+}
+
+.dropdown-item {
+    color: #000000;
+    font-size: 1rem;
+
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.cta-top {
+    border-radius: 50px;
+    border: 3px solid #BF1363;
+    width: 207px;
+    height: 56px;
+}
+
+.login-top {
+    padding-top: 7px;
+}
+
+.cta-top-text {
+    color: #BF1363;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+    font-weight: 700;
+
+}
+
+.cta-top-text:hover {
+    color: #BF1363;
+}
+
+.cta-top-text:active {
+    color: #BF1363;
+}
+
+.cta-top-text:visited {
+    color: #BF1363;
+}
+
+.dropdown .dropdown-menu {
+    border: none;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100px;
+}
+
+
+/* intro section: */
+
+h1 {
+    font-size: 4.6rem;
+    padding-bottom: 30px;
+}
+
+.intro-p {
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 50px;
+}
+
+.create-account {
+    border-radius: 50px;
+    background: #BF1363;
+    color: #FBFEF9;
+    font-size: 1rem;
+    padding: 17px 35px;
+    font-weight: 700;
+    width: 217px;
+}
+
+.create-account2 {
+    border-radius: 50px;
+    background: #BF1363;
+    color: #FBFEF9;
+    font-size: 1rem;
+    padding: 17px 35px;
+    font-weight: 700;
+    width: 217px;
+}
+
+.book-demo {
+    color: #BF1363;
+    font-size: 1rem;
+    padding-left: 35px;
+    font-weight: 700;
+}
+
+.intro-content {
+    padding: 150px 0;
+}
+
+/* section 1 */
+
+.title-boxes {
+    font-size: 2.8rem;
+}
+
+.title-1 {
+    padding-bottom: 72px;
+}
+
+.box-1 {
+    border-radius: 15px;
+    background: #FEF4EB;
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    padding: 47px;
+}
+
+.box-2 {
+    border-radius: 15px;
+    background: #FEF4EB;
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    padding: 47px;
+}
+
+.box-3 {
+    border-radius: 15px;
+    background: #FEF4EB;
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    padding: 47px;
+}
+
+.icon-container {
+    display: inline-block;
+    background-color: #FBFEF9;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.box-1--icon,
+.box-2--icon,
+.box-3--icon {
+    width: 33px;
+    height: 33px;
+}
+
+.box-title {
+    padding-top: 15px;
+}
+
+.section-1 {
+    padding-bottom: 150px;
+}
+
+/* section 2 and section 3 */
+.section2 {
+    padding-top: 150px;
+
+}
+
+.section2 {
+    background-color: #000000;
+    /* change later*/
+    padding-bottom: 150px;
+}
+
+.section3 {
+    background-color: #000000;
+    /* change later*/
+    padding-bottom: 150px;
+}
+
+
+.h2-content-2 {
+    padding-bottom: 35px;
+    color: #FBFEF9;
+
+}
+
+
+.h2-content-3 {
+    padding-bottom: 35px;
+    color: #FBFEF9;
+
+}
+
+.p-content-2 {
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    color: #FBFEF9;
+}
+
+.p-content-3 {
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    color: #FBFEF9;
+}
+
+.section-2--img,
+.section-3--img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.image-2,
+.text-3 {
+    padding-left: 45px;
+}
+
+.image-3,
+.text-2 {
+    padding-right: 45px;
+}
+
+.image-2,
+.image-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.text-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.text-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.p-content-2 {
+    padding-bottom: 35px;
+}
+
+
+/* reviews (section-4)  */
+.section-4 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.h2-content-4 {
+    padding-bottom: 58px;
+}
+
+.swipebox-container {
+    background: #0E79B2;
+    color: #FBFEF9;
+
+}
+
+.content-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 50px 0 50px 57px;
+}
+
+.text-review {
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    color: #FBFEF9;
+
+}
+
+.person-img--image {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.text-company {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #FBFEF9;
+
+}
+
+.text-person {
+    padding-bottom: 10px;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #FBFEF9;
+
+}
+
+.next-btn,
+.prev-btn {
+    background: none;
+
+}
+
+.prevbutton,
+.nextbutton {
+    width: 27px;
+}
+
+.next-btn {
+    margin-left: 10px;
+}
+
+
+/* section 5 */
+.section-5 {
+    padding-bottom: 150px;
+}
+
+.h2-section-5 {
+    padding-bottom: 30px;
+}
+
+.p-section-5 {
+    font-size: 1.8rem;
+    padding-bottom: 50px;
+}
+
+
+/* footer */
+
+footer {
+    background: #000000;
+    color: #FBFEF9;
+    padding: 20px 0;
+
+}
+
+.footer-logo {
+    color: #FBFEF9;
+}
+
+.footer-privacy {
+    color: #FBFEF9;
+}
+
+.footer-terms {
+    color: #FBFEF9;
+}
+
+.footer-logo:hover {
+    color: #FBFEF9;
+}
+
+.footer-privacy:hover {
+    color: #FBFEF9;
+}
+
+.footer-terms:hover {
+    color: #FBFEF9;
+}
+
+.footer-logo {
+    font-size: 1.5rem;
+}
+
+.footer-right {
+    font-size: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.footer-terms {
+    padding-left: 40px;
+}
+
+/* links */
+.create-account:active {
+    color: #FBFEF9;
+}
+.create-account:hover {
+    color: #FBFEF9;
+}
+.create-account:visited {
+    color: #FBFEF9;
+}
+.create-account2:active {
+    color: #FBFEF9;
+}
+.create-account2:hover {
+    color: #FBFEF9;
+}
+.create-account2:visited {
+    color: #FBFEF9;
+}
+
+.book-demo:active {
+    color: #BF1363;
+}
+
+.book-demo:hover {
+    color: #BF1363;
+}
+
+.book-demo:visited {
+    color: #BF1363;
+}
+
+
+/* Begin Responsive design */
+
+
+/* (UI) Section 1, boxes become to thin: */
+@media all and (max-width: 1145px) {
+
+    .box-1,
+    .box-2,
+    .box-3 {
+        font-size: 0.9rem;
+    }
+}
+
+
+/* (UI) same gap between items after icon toggle */
+@media all and (max-width: 1200px) {
+    .navbar-nav {
+        gap: 5px;
+    }
+}
+
+
+/* Up to large screens: */
+@media all and (max-width: 991px) {
+
+    .box-1,
+    .box-2,
+    .box-3 {
+        font-size: 1.1rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .intro-p {
+        font-size: 2rem;
+    }
+
+    .title-boxes,
+    .h2-content-2,
+    .h2-content-3,
+    .h2-content-4,
+    .h2-section-5 {
+        font-size: 2.4rem;
+    }
+
+    .boxes-container .col-lg-4:nth-child(1),
+    .boxes-container .col-lg-4:nth-child(2) {
+        margin-bottom: 20px;
+    }
+
+    .p-section-5 {
+        font-size: 1.4rem;
+    }
+
+    /* Make images in section2 and section3 drop below text */
+
+    .section-2--img,
+    .section-3--img {
+        width: 100%;
+    }
+
+    .content-2 {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        -ms-grid-rows: auto 45px auto;
+        grid-template-rows: auto auto;
+        gap: 45px;
+    }
+
+    .content-2 > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+
+    .content-2 > *:nth-child(2) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+
+    .content-3 {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        -ms-grid-rows: auto 45px auto;
+        grid-template-rows: auto auto;
+        grid-auto-flow: dense;
+        gap: 45px;
+    }
+
+    .content-3 > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+
+    .content-3 > *:nth-child(2) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+
+    .image-3 {
+        -ms-grid-row: 2;
+        grid-row: 2;
+        /* Place image-2 in the first row */
+    }
+
+    .image-2,
+    .text-3 {
+        padding-left: 20px;
+    }
+
+    .image-3,
+    .text-2 {
+        padding-right: 20px;
+    }
+
+}
+
+
+/* (UI) Image in review box becomes too squished */
+@media all and (max-width: 930px) {
+    .content-right {
+        display: none;
+    }
+
+    .content-left {
+        padding-right: 57px;
+    }
+}
+
+
+/* up to medium screens */
+@media all and (max-width: 767px) {
+    h1 {
+        font-size: 3.4rem;
+    }
+
+    .intro-p {
+        font-size: 1.6rem;
+    }
+
+    .title-boxes,
+    .h2-content-2,
+    .h2-content-3,
+    .h2-content-4,
+    .h2-section-5 {
+        font-size: 2rem;
+    }
+
+    .footer-right {
+        font-size: 0.7rem;
+    }
+
+    .footer-terms {
+        padding-left: 10px;
+    }
+}
+
+/* up to small screens */
+@media all and (max-width: 575px) {
+
+    .page-header,
+    .intro,
+    .content-1,
+    .section-2,
+    .section-3,
+    .content-4,
+    .content-5,
+    .footer {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    .intro-p {
+        font-size: 1.3rem;
+    }
+
+    .title-boxes,
+    .h2-content-2,
+    .h2-content-3,
+    .h2-content-4,
+    .h2-section-5 {
+        font-size: 1.7rem;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3,
+    .p-content-2,
+    .p-content-3,
+    .text-review {
+        font-size: 0.9rem;
+    }
+
+    .p-section-5 {
+        font-size: 1.2rem;
+    }
+
+    .create-account,
+    .create-account2 {
+        font-size: 0.8rem;
+        padding: 17px 30px;
+        font-weight: 700;
+        width: 180px;
+    }
+
+    .book-demo {
+        font-size: 0.8rem;
+        padding-left: 15px;
+
+    }
+
+    .text-2,
+    .text-3 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer-logo {
+        font-size: 1rem;
+    }
+
+    .footer-right {
+        font-size: 0.6rem;
+    }
+
+    .footer-terms {
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    /* Smaller padding on mobile: */
+
+    .intro-content, 
+    .section-4 {
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+
+    .section-1 {
+        padding-bottom: 112px;
+    }
+
+    .section2 {
+        padding-top: 112px;
+    }
+
+    .section2,
+    .section3,
+    .section-5 {
+        padding-bottom: 112px;
+    }
+
+}
