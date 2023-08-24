@@ -12,6 +12,7 @@ font-family: 'Open Sans', sans-serif;
     --red: #BF1363;
     --peach: #FEF4EB;
     --icon: #FBFEF9;
+    --darkred: #850d45;
 }
 
 * {
@@ -123,11 +124,17 @@ h2 {
 
 }
 
-.cta-top-text:hover,
-.cta-top-text:active,
-.cta-top-text:visited {
-    color: var(--red);
+.cta-top:hover,
+.cta-top:active {
+    color: var(--white);
+    background-color: var(--red);
 }
+
+.cta-top-text:hover,
+.cta-totext:active {
+    color: var(--white);
+}
+
 
 .dropdown .dropdown-menu {
     border: none;
@@ -159,6 +166,8 @@ h1 {
     font-weight: 700;
     width: 217px;
 }
+
+
 
 .book-demo {
     color: var(--red);
@@ -403,17 +412,18 @@ footer {
 /* links */
 .create-account:active,
 .create-account:hover,
-.create-account:visited,
 .create-account2:active,
-.create-account2:hover,
-.create-account2:visited {
+.create-account2:hover {
     color: var(--white);
+    background-color: var(--darkred);
+    text-decoration: none;
 }
 
 .book-demo:active,
-.book-demo:hover,
-.book-demo:visited {
-    color: var(--red);
+.book-demo:hover
+ {
+    color: var(--darkred);
+    text-decoration: none;
 }
 
 
